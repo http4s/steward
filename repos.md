@@ -1,4 +1,5 @@
-- http4s/blaze
+- http4s/blaze:series/0.23
+- http4s/blaze:main
 - http4s/hpack
 - http4s/http4s.g8
 - http4s/http4s-armeria
