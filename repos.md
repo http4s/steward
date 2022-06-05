@@ -18,7 +18,8 @@
 - http4s/http4s-play-json
 - http4s/http4s-prometheus-metrics
 - http4s/http4s-scalatags
-- http4s/http4s-scala-xml
+- http4s/http4s-scala-xml:main
+- http4s/http4s-scala-xml:series/0.23
 - http4s/http4s-scala-xml-1
 - http4s/http4s-servlet:series/0.23
 - http4s/http4s-servlet:series/0.24
