@@ -9,6 +9,7 @@
 - http4s/http4s-dropwizard-metrics
 - http4s/http4s-fabric
 - http4s/http4s-finagle
+- http4s/http4s-fs2-data
 - http4s/http4s-io.g8
 - http4s/http4s-jdk-http-client:main
 - http4s/http4s-jdk-http-client:series/0.7
