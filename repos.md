@@ -17,7 +17,8 @@
 - http4s/http4s-netty
 - http4s/http4s-okhttp-client
 - http4s/http4s-play-json
-- http4s/http4s-prometheus-metrics
+- http4s/http4s-prometheus-metrics:main
+- http4s/http4s-prometheus-metrics:series/0.24
 - http4s/http4s-scalatags:main
 - http4s/http4s-scalatags:series/0.24
 - http4s/http4s-scala-xml:main
