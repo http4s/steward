@@ -23,7 +23,6 @@
 - http4s/http4s-scalatags:series/0.24
 - http4s/http4s-scala-xml:main
 - http4s/http4s-scala-xml:series/0.23
-- http4s/http4s-scala-xml-1
 - http4s/http4s-servlet:series/0.23
 - http4s/http4s-servlet:series/0.24
 - http4s/http4s-servlet:series/0.25
