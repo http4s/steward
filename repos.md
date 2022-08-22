@@ -5,6 +5,7 @@
 - http4s/http4s-armeria
 - http4s/http4s-boopickle
 - http4s/http4s-crypto
+- http4s/http4s-curl
 - http4s/http4s-dom
 - http4s/http4s-dropwizard-metrics
 - http4s/http4s-fabric
