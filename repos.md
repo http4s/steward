@@ -23,7 +23,7 @@
 - http4s/http4s-prometheus-metrics:main
 - http4s/http4s-prometheus-metrics:series/0.24
 - http4s/http4s-scalatags:main
-- http4s/http4s-scalatags:series/0.24
+- http4s/http4s-scalatags:series/0.25
 - http4s/http4s-scala-xml:main
 - http4s/http4s-scala-xml:series/0.23
 - http4s/http4s-servlet:series/0.23
