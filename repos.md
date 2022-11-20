@@ -14,7 +14,7 @@
 - http4s/http4s-fs2-data
 - http4s/http4s-io.g8
 - http4s/http4s-jdk-http-client:main
-- http4s/http4s-jdk-http-client:series/0.7
+- http4s/http4s-jdk-http-client:series/0.8
 - http4s/http4s-jetty
 - http4s/http4s-netty:main
 - http4s/http4s-netty:series/0.5
