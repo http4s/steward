@@ -35,10 +35,10 @@ jobs:
           private_key: ${{ secrets.STEWARD_PRIVATE_KEY }}
 
       - name: Update flake.lock
-        uses: DeterminateSystems/update-flake-lock@36f1c474807d62363305dcec6fd9ea9ed642c114
+        uses: DeterminateSystems/update-flake-lock@v15
         with:
           token: ${{ steps.generate-token.outputs.token }}
-          branch: update/flake-lock-${{ github.run_number }}
+          branch: update/flake-lock
           git-author-email: 106843772+http4s-steward[bot]@users.noreply.github.com
           git-author-name: http4s-steward[bot]
           git-committer-email: 106843772+http4s-steward[bot]@users.noreply.github.com
