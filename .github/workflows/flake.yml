@@ -10,6 +10,7 @@ jobs:
     strategy:
       matrix:
         repo:
+          - http4s/blaze
           - http4s/http4s
           - http4s/http4s-dom
           - http4s/http4s-jetty
