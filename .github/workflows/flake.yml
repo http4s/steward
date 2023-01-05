@@ -15,7 +15,6 @@ jobs:
           - http4s/http4s-dom
           - http4s/http4s-jetty
           - http4s/http4s-servlet
-          - http4s/http4s-tomcat
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
