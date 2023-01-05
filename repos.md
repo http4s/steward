@@ -4,6 +4,7 @@
 - http4s/http4s.g8
 - http4s/http4s-armeria
 - http4s/http4s-armeria:series/1.x
+- http4s/http4s-boopickle
 - http4s/http4s-crypto
 - http4s/http4s-curl
 - http4s/http4s-dom
