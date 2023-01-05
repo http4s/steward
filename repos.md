@@ -7,7 +7,6 @@
 - http4s/http4s-crypto
 - http4s/http4s-curl
 - http4s/http4s-dom
-- http4s/http4s-dropwizard-metrics
 - http4s/http4s-fabric
 - http4s/http4s-finagle
 - http4s/http4s-fs2-data
