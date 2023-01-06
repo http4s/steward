@@ -12,6 +12,7 @@ jobs:
         repo:
           - http4s/blaze
           - http4s/http4s
+          - http4s/http4s-curl
           - http4s/http4s-dom
           - http4s/http4s-jetty
           - http4s/http4s-servlet
