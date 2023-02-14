@@ -8,9 +8,9 @@ on:
 jobs:
   lockfile:
     strategy:
+      fail-fast: false
       matrix:
         repo:
-          - http4s/blaze
           - http4s/http4s
           - http4s/http4s-curl
           - http4s/http4s-dom
