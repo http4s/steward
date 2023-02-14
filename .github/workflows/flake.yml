@@ -8,6 +8,7 @@ on:
 jobs:
   lockfile:
     strategy:
+      fail-fast: false
       matrix:
         repo:
           - http4s/http4s
