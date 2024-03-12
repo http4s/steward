@@ -41,3 +41,4 @@
 - http4s/rho:main
 - http4s/rho:series/0.23
 - http4s/sbt-http4s-org
+- http4s/http4s-grpc
