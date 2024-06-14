@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     name: http4s Steward
     env:
-      SBT_OPTS=-Xmx3G
+      SBT_OPTS: -Xmx3G
     steps:
       - uses: actions/checkout@v4
           
