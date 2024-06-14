@@ -11,6 +11,8 @@ jobs:
   steward:
     runs-on: ubuntu-latest
     name: http4s Steward
+    env:
+      SBT_OPTS=-Xmx3G
     steps:
       - uses: actions/checkout@v4
           
@@ -28,4 +30,3 @@ jobs:
           repos-file: 'repos.md'
           author-email: 106843772+http4s-steward[bot]@users.noreply.github.com
           author-name: http4s-steward[bot]
-
