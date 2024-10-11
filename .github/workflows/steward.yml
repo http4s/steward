@@ -14,6 +14,8 @@ jobs:
     env:
       SBT_OPTS: -Xmx3G
     steps:
+      - uses: sbt/setup-sbt@v1
+    
       - uses: actions/checkout@v4
           
       - name: Generate token
