@@ -9,7 +9,7 @@ concurrency: steward
 
 jobs:
   steward:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     name: http4s Steward
     env:
       SBT_OPTS: -Xmx3G
