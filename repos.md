@@ -40,7 +40,6 @@
 - http4s/http4s-twirl:series/0.23
 - http4s/http4s:main
 - http4s/http4s:series/0.23
-- http4s/module.g8
 - http4s/rho:main
 - http4s/rho:series/0.23
 - http4s/sbt-http4s-org
