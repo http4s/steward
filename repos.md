@@ -14,9 +14,9 @@
 - http4s/http4s-io.g8
 - http4s/http4s-jdk-http-client:main
 - http4s/http4s-jdk-http-client:series/0.10
-- http4s/http4s-jetty:series/0.24
-- http4s/http4s-jetty:series/0.25
 - http4s/http4s-jetty:series/0.26
+- http4s/http4s-jetty:series/0.27
+- http4s/http4s-jetty:series/0.28
 - http4s/http4s-netty:main
 - http4s/http4s-netty:series/0.5
 - http4s/http4s-otel4s
