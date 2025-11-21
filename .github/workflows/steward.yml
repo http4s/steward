@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: sbt/setup-sbt@v1
     
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
           
       - name: Generate token
         id: generate-token
