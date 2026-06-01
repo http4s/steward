@@ -18,7 +18,7 @@
 - http4s/http4s-jetty:series/0.27
 - http4s/http4s-jetty:series/0.28
 - http4s/http4s-netty:main
-- http4s/http4s-netty:series/0.5
+- http4s/http4s-netty:series/0.7
 - http4s/http4s-otel4s
 - http4s/http4s-play-json
 - http4s/http4s-prometheus-metrics:main
