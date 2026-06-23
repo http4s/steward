@@ -14,19 +14,19 @@ jobs:
     env:
       SBT_OPTS: -Xmx3G
     steps:
-      - uses: sbt/setup-sbt@v1
+      - uses: sbt/setup-sbt@3afe9cf056c5d139bfc46579af1192d77a2f0821 # v1.4.0
     
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
           
       - name: Generate token
         id: generate-token
-        uses: tibdex/github-app-token@v2
+        uses: tibdex/github-app-token@3beb63f4bd073e61482598c45c71c1019b59b73a # v2.1.0
         with:
           app_id: 207529
           private_key: ${{ secrets.STEWARD_PRIVATE_KEY }}
 
       - name: Launch Scala Steward
-        uses: scala-steward-org/scala-steward-action@v2
+        uses: scala-steward-org/scala-steward-action@708c1d682b14b9785201afb25c8ffece0a9d126f # v2.90.0
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           repos-file: 'repos.md'
