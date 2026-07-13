@@ -37,6 +37,7 @@ jobs:
         with:
           client-id: 207529
           private-key: ${{ secrets.STEWARD_PRIVATE_KEY }}
+          owner: http4s
 
       - name: Update flake.lock
         uses: DeterminateSystems/update-flake-lock@834c491b2ece4de0bbd00d85214bb5e83b4da5c6 # v28
