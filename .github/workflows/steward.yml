@@ -27,7 +27,7 @@ jobs:
           owner: http4s
 
       - name: Launch Scala Steward
-        uses: scala-steward-org/scala-steward-action@41bd88543dcf5e5455689f04d041b095eb901660 # v2.93.0
+        uses: scala-steward-org/scala-steward-action@38cf8f4f38b758abc43334df9aff5ac2d2aa4fe6 # v2.94.0
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           repos-file: 'repos.md'
