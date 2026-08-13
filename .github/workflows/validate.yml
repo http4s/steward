@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-    - uses: coursier/setup-action@63a23764316528a1b627103472030d5a16fc6133 # v3.0.1
+    - uses: coursier/setup-action@9b7939bf01fd1185ce2babe16135168361bf2c62 # v3.0.2
       with:
         apps: scala-steward
     - run: scala-steward validate-repo-config .github/.scala-steward.conf
