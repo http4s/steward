@@ -17,7 +17,6 @@ jobs:
           - http4s/http4s-dom
           - http4s/http4s-jetty
           - http4s/http4s-servlet
-          - http4s/http4s-tomcat
           - http4s/http4s-jdk-http-client
     runs-on: ubuntu-latest
     steps:
