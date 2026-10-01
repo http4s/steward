@@ -14,7 +14,7 @@ jobs:
     env:
       SBT_OPTS: -Xmx3G
     steps:
-      - uses: sbt/setup-sbt@ce95da69b39609ea153bad087708da5f37366897 # v1.5.10
+      - uses: sbt/setup-sbt@6158cb0903b8ceeae04f830055f3155e1b6a5ad7 # v1.5.11
     
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
           
